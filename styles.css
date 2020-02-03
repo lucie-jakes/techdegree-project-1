@@ -57,7 +57,7 @@
   
   header {
     text-align: center;
-    background: url('images/portland.jpg') no-repeat top center ;
+    background: url('images/backgroundIMG.jpg') no-repeat top center ;
     background-size: cover;
     overflow: hidden;
     padding-top: 60px;
@@ -69,12 +69,12 @@
     margin-top: 50px;
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 5%;
     border: 3px solid white;
     transition: all .5s;
   }
   header .profile-image:hover {
-    transform: scale(1.2) rotate(5deg);
+    transform: scale(1.5) rotate(360deg);
   }
   .tag {
     background-color: #efefef;
@@ -86,7 +86,8 @@
   } 
   .location {
     background-color: #222;
-    color: yellow;
+    color: white;
+    font-weight: 500;
   }
   .card {
     margin: 30px;
@@ -145,18 +146,16 @@
     display: inline-block;
     text-indent: -9999px;
     margin-left: 5px;
-    width: 30px;
-    height: 30px;
-    background-size: 30px 30px;
-    opacity: .4;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    opacity: .7;
     transition: all .5s;
   }
   a.twitter {
     background-image: url(images/twitter.svg);
   }
-  a.linkedin {
-    background-image: url(images/linkedin.svg);
-  }
+
   a.github {
     background-image: url(images/github.svg);
   }
@@ -205,4 +204,7 @@
   
   }
   
-  
+  /* .card-background {
+    background: url('images/rsz_1workstation3.jpg');
+    opacity: 0.4;
+  }   */
