@@ -95,12 +95,12 @@
     max-width: 500px;
     text-align: left;
     background: #fff;
-    border-bottom: 4px solid #ccc;
+    border-bottom: 10px solid #ccc;
     border-radius: 6px;
     transition: all .5s;
   }
   .card:hover {
-    border-color: #ff99ff;
+    border-color: #eb079f;
   }
   
   ul.skills {
@@ -109,9 +109,9 @@
   }
   
   .skills li {
-    border-radius: 6px;
+    border-radius: 3px;
     display: inline-block;
-    background: #ff9904;
+    background: #eb079f;
     color: white;
     padding: 5px 10px;
     margin: 2px;
